@@ -4,6 +4,7 @@ title: Title of post 2
 date: 2018-01-10 15:01:00
 description: An apt description of your post
 categories: [rnn, regularization]
+published: false
 ---
 
 Write your post content here in normal `markdown`. An example post is shown below for reference. 

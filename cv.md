@@ -4,8 +4,8 @@ title: CV
 permalink: /cv/
 ---
 
-You can download my current curriculum vitae below.
+My current curriculum vitae was last updated on March 18, 2026.
 
-<ul>
-  <li><a href="/cv/Neha_CV.pdf">Full CV</a></li>
-</ul>
+<div class="button-row">
+  <a href="{{ site.baseurl }}/cv/Neha_CV.pdf"><span class="color-button">Download CV</span></a>
+</div>

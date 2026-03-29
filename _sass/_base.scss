@@ -17,9 +17,11 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
+    font-weight: 400;
     color: $text-color;
-    background-color: $background-color;
+    background:
+        radial-gradient(circle at top left, rgba(111, 142, 171, 0.18), transparent 30%),
+        linear-gradient(180deg, #faf8f2 0%, $background-color 100%);
     -webkit-text-size-adjust: 100%;
 }
 
@@ -81,7 +83,9 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 200;
+    color: $blue-color-dark;
+    font-family: $heading-font-family;
+    font-weight: 600;
 }
 
 
@@ -98,8 +102,7 @@ a {
     } 
 
     &:hover {
-        color: $text-color;
-        // text-decoration: underline;
+        color: $blue-color-dark;
     }
 }
 
@@ -206,18 +209,23 @@ pre {
  * Color button 
  */
 .color-button {
-    background: $blue-color-dark;
-    border-style: none;
-    border-radius: 10px;
+    align-items: center;
+    background: linear-gradient(135deg, $blue-color-dark, $brand-color);
+    border-radius: 999px;
+    box-shadow: 0 12px 24px rgba(20, 58, 93, 0.14);
     color: white;
-    font-weight: bold;
-    font-size: 12px;
-    display: inline-block;
-    padding: 0px 10px;
-    margin: 0px 5px 0 0;
-    cursor: pointer;
+    display: inline-flex;
+    font-size: 0.92rem;
+    font-weight: 600;
+    gap: 0.35rem;
+    padding: 0.55rem 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+
     &:hover {
-        background: $blue-color-light;
+        background: linear-gradient(135deg, $brand-color, $blue-color-light);
+        color: white;
+        transform: translateY(-1px);
+        box-shadow: 0 16px 28px rgba(20, 58, 93, 0.18);
     }
 }
 
@@ -229,5 +237,4 @@ text-decoration: none;
  font-weight: 600; 
 font-family: 'Capita', Georgia, serif;
 }
-
 

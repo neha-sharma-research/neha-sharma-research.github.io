@@ -2,6 +2,7 @@
 layout: page
 title: Blog
 permalink: /blog/
+published: false
 ---
 
 Here are my carefully compiled views on some topics that I encountered so far. Hopefully, you will find them helpful! You can also search my posts by category <a href="{{ site.baseurl }}/categories/">here</a>.

@@ -3,27 +3,30 @@
 ---
 @charset "utf-8";
 
-$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-$base-font-size:   .95em;
+$base-font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
+$heading-font-family: 'Newsreader', Georgia, serif;
+$base-font-size:   1em;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #0077CC;
+$text-color:       #1d2736;
+$background-color: #f5f2ea;
+$surface-color:    #fffdf8;
+$brand-color:      #0f537f;
+$accent-color:     #a85836;
 
-$blue-color-dark: darken(#3E7AD1, 10%);
-$blue-color-light: #4B93DB;
+$blue-color-dark:  #143a5d;
+$blue-color-light: #6f8eab;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color:       #6f7782;
+$grey-color-light: #d7d1c7;
+$grey-color-dark:  #374151;
 
 
 // Width of the content area
-$content-width:    950px;
+$content-width:    1020px;
 
 $on-palm:          600px;
 $on-laptop:        950px;

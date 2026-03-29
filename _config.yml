@@ -1,13 +1,20 @@
 # Site settings
 title: Neha Sharma
 academic_email: nehash@wharton.upenn.edu
+academic_title: Assistant Professor of Operations, Information and Decisions
+affiliation: The Wharton School, University of Pennsylvania
+location: Philadelphia, PA
 
 description: > # this means to ignore newlines until "baseurl:"
-  I am an Assistant Professor of Operations, Information, and Decisions at The Wharton School, University of Pennsylvania. My research focuses on the design of online marketplaces using data, stochastic models, and game theory. 
+  Research on digital marketplaces, online communities, AI and operations, and
+  access-oriented markets.
 
 baseurl: # "/academic-portfolio" # the subpath of your site, e.g. /blog/
 
 url: "https://neha-sharma-research.github.io"
+wharton_url: https://oid.wharton.upenn.edu/profile/nehash/
+scholar_url: https://scholar.google.com/citations?user=kp0elCYAAAAJ&hl=en
+ssrn_url: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4807929
 
 # twitter_username: jekyllrb
 github_username: neha-sharma-research

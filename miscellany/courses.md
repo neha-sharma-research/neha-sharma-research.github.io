@@ -2,6 +2,7 @@
 layout: page
 title: Key Courses Undertaken
 permalink: /miscellany/courses/
+published: false
 ---
 
 <h2>At &lt;your university name&gt;</h2>

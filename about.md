@@ -4,16 +4,31 @@ title: About
 permalink: /about/
 ---
 
-{% include image.html url="/images/27207449_2_100223_709_0086.jpeg" caption="A sassy caption here" width=300 align="right" %}
+<div class="profile-split">
+  <img class="profile-inline" src="{{ site.baseurl }}/images/27207449_2_100223_709_0086.jpeg" alt="Portrait of Neha Sharma">
 
-I am an Assistant Professor of Operations, Information, and Decisions at the Wharton School, University of Pennsylvania. My research designs and evaluates pricing, incentive, and governance policies for digital marketplaces and platform-based services using empirical data, stochastic models, and game theory. I study how platform rules shape participation, service quality, and welfare across sharing and delivery platforms, online knowledge communities, and access-oriented markets, including EV adoption and financing for low-income consumers. My work has received recognition from INFORMS and IBM competitions. I earned my PhD in Operations Research from Northwestern University (Kellogg) in 2023 and teach OIDD 2200: Operations Management Analytics.
+  <div>
+    <p>Neha Sharma is {{ site.academic_title }} at {{ site.affiliation }}. She studies how pricing, incentive, information, and governance policies shape outcomes in digital marketplaces, online communities, and access-oriented markets.</p>
 
-<div style="margin-top: 1rem;">
-<a href="/research/"><div class="color-button">Research</div></a>
-<a href="/cv/Neha_CV.pdf"><div class="color-button">CV</div></a>
-<a href="https://scholar.google.com/citations?user=kp0elCYAAAAJ&hl=en"><div class="color-button">Google Scholar</div></a>
-<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4807929"><div class="color-button">SSRN</div></a>
-<a href="https://oid.wharton.upenn.edu/profile/nehash/"><div class="color-button">Professional Page</div></a>
-<a href="https://github.com/neha-sharma-research"><div class="color-button">GitHub</div></a>
-<a href="https://www.linkedin.com/in/neha-sharma-wharton/"><div class="color-button">Linkedin</div></a>
+    <p>Her work combines empirical analysis, stochastic models, and game theory to understand participation, service quality, and welfare on platform-based systems. Current projects examine online communities, sharing markets, EV access and financing, human-AI collaboration, and the changing role of open knowledge communities in the age of LLMs.</p>
+
+    <p>Before joining Wharton, she completed a Ph.D. in Operations Management and an M.S. in Statistics at Northwestern University in June 2024. Her research has been recognized in INFORMS and IBM student paper competitions, and has been featured by Knowledge at Wharton and Kellogg Insight.</p>
+  </div>
 </div>
+
+## Links
+
+<div class="button-row">
+  <a href="{{ site.baseurl }}/research/"><span class="color-button">Research</span></a>
+  <a href="{{ site.baseurl }}/cv/Neha_CV.pdf"><span class="color-button">CV</span></a>
+  <a href="{{ site.scholar_url }}"><span class="color-button">Google Scholar</span></a>
+  <a href="{{ site.ssrn_url }}"><span class="color-button">SSRN</span></a>
+  <a href="{{ site.wharton_url }}"><span class="color-button">Wharton Profile</span></a>
+  <a href="https://github.com/{{ site.github_username }}"><span class="color-button">GitHub</span></a>
+  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><span class="color-button">LinkedIn</span></a>
+</div>
+
+## Contact
+
+- Email: [{{ site.academic_email }}](mailto:{{ site.academic_email }})
+- Location: {{ site.location }}

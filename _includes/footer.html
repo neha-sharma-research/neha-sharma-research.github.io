@@ -9,7 +9,9 @@
         <ul class="contact-list">
           <li><strong>{{ site.title }}</strong></li>
           <li><a href="mailto:{{ site.academic_email }}">{{ site.academic_email }}</a></li>
+          {% if site.general_email %}
           <li><a href="mailto:{{ site.general_email }}">{{ site.general_email }}</a></li>
+          {% endif %}
         </ul>
       </div>
 
@@ -72,13 +74,16 @@
             </a>
           </li>
           {% endif %}
-          </svg>
         </ul>
       </div>
 
       <div class="footer-col  footer-col-3">
-         <p class="text">
-{{ site.description }} 
+         <p class="text">{{ site.description }}</p>
+         <p class="footer-links">
+           <a href="{{ site.wharton_url }}">Wharton</a>
+           <a href="{{ site.scholar_url }}">Google Scholar</a>
+           <a href="{{ site.ssrn_url }}">SSRN</a>
+         </p>
       </div>
     </div>
 
