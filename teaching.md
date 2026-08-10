@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-I teach an undergraduate elective in operations management and analytics, and I am excited to be part of experimenting with AI in the classroom.
+I teach an undergraduate elective in operations management and analytics, where I enjoy helping students connect analytical tools to managerial decisions. I am also excited to be part of experimenting with AI in the classroom.
 
 <h2>Courses</h2>
 
@@ -22,12 +22,3 @@ I teach an undergraduate elective in operations management and analytics, and I 
     Guest lecture.
   </li>
 </ul>
-
-<h2 class="teaching-interests-heading">Teaching Interests</h2>
-
-<p>
-I enjoy teaching courses in operations management, platform strategy, marketplace design,
-analytics, and AI-enabled operational systems. I also value courses that help students connect
-analytical tools to managerial decisions in marketplaces, service operations, and technology-driven
-environments.
-</p>
