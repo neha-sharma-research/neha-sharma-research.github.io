@@ -11,7 +11,7 @@ My research studies pricing, incentive, information, and governance design in di
 <ul class="research-list">
   <li>
     <b>Payment for Results: Funding Non-Profit Operations</b><br>
-    <i>Neha Sharma, Sachin Devalkar, and Milind Sohoni</i><br>
+    <i>Neha Sharma, Sripad Devalkar, and Milind Sohoni</i><br>
     <i>Production and Operations Management</i><br>
     <div class="button-row">
       <a href="https://onlinelibrary.wiley.com/doi/10.1111/poms.13336"><span class="color-button">Paper</span></a>
@@ -101,7 +101,7 @@ My research studies pricing, incentive, information, and governance design in di
 
   <li>
     <b>Dynamic Scheduling of Nursing Home Inspections Under Strategic Incentives</b><br>
-    <i>J. Lim, K. Moon, and Neha Sharma</i><br>
+    <i>Jong M. Lim, Ken Moon, and Neha Sharma</i><br>
     Draft under preparation
   </li>
 </ul>
