@@ -4,7 +4,7 @@ title: Updates
 permalink: /updates/
 ---
 
-The site content below reflects the current CV dated March 18, 2026.
+The site content below reflects the current CV dated August 2026.
 
 <ul class="update-list">
   {% for item in site.data.updates %}
