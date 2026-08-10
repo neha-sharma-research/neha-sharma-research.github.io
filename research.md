@@ -79,8 +79,11 @@ My research studies pricing, incentive, information, and governance design in di
   </li>
 
   <li>
-    <b>Scaling Sharing Platforms with Supply Constraints with Lease-to-Earn Contracts</b><br>
-    <i>Neha Sharma, Milind Sohoni, and Achal Bassamboo</i>
+    <b><a class="paper-title-link" href="{{ site.baseurl }}/research/scaling-sharing-platforms/">Scaling Sharing Platforms with Supply Constraints with Lease-to-Earn Contracts</a></b><br>
+    <i>Neha Sharma, Milind Sohoni, and Achal Bassamboo</i><br>
+    <div class="button-row">
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3919303"><span class="color-button">SSRN</span></a>
+    </div>
   </li>
 </ul>
 
