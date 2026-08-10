@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-I teach operations management and analytics with an emphasis on decision-making under uncertainty, platform design, data-driven operations, and AI-enabled systems.
+I teach an undergraduate elective in operations management and analytics, and I am excited to be part of experimenting with AI in the classroom.
 
 <h2>Courses</h2>
 
@@ -15,11 +15,15 @@ I teach operations management and analytics with an emphasis on decision-making 
   </li>
   <li>
     <b>OIDD 9010: PhD Seminar</b><br>
-    Guest lecturer.
+    Guest lecture.
+  </li>
+  <li>
+    <b>OIDD 9410: Advanced Course in Operations Management (PhD)</b><br>
+    Guest lecture.
   </li>
 </ul>
 
-<h2>Teaching Interests</h2>
+<h2 class="teaching-interests-heading">Teaching Interests</h2>
 
 <p>
 I enjoy teaching courses in operations management, platform strategy, marketplace design,

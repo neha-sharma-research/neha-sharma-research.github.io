@@ -4,7 +4,7 @@ permalink: /presentations/
 title: Presentations
 ---
 
-Talks and presentations are organized by year and paper. This page reflects the complete presentation history in my August 2026 CV.
+I am immensely grateful for the invitations and opportunities to present my work. Below is a list of my talks, organized by year and paper.
 
 <h2>2026</h2>
 
