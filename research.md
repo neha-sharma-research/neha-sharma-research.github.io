@@ -63,7 +63,7 @@ My research studies pricing, incentive, information, and governance design in di
 
 <ul class="research-list">
   <li>
-    <b><a class="paper-title-link" href="{{ site.baseurl }}/research/what-remains-after-llms/">What Remains After LLMs: Technical Knowledge Moves from Hubs to Niches</a></b><br>
+    <b><a class="paper-title-link" href="{{ site.baseurl }}/research/what-remains-after-llms/">Generative AI Shifts Technical Knowledge Production Toward Recombinant Novelty</a></b><br>
     <i>Neha Sharma and Simin Li</i><br>
     <div class="button-row">
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5388669"><span class="color-button">SSRN</span></a>

@@ -11,14 +11,14 @@ I am immensely grateful for the invitations and for every opportunity to present
 <ul class="research-list presentation-list">
   <li><b>The Winner's Curse: Why Optimizing Structural Models Overpromises and Underdelivers</b><br>OM in the Wild (Poconos), INFORMS Healthcare Conference, INFORMS Revenue Management and Pricing Conference, and INFORMS M&amp;SOM SIG Day.</li>
   <li><b>When Collateral Is a Livelihood: Sustaining Access to Productive Assets</b><br>INFORMS ADA, INFORMS Revenue Management and Pricing Conference, M&amp;SOM Conference, ACM EAAMO, and INFORMS Annual Meeting.</li>
-  <li><b>What Remains After LLMs: Technical Knowledge Moves from Hubs to Niches</b><br>Rensselaer Lally School of Management, AI and the Future of Work at Wharton, Marketplace Innovation Workshop, M&amp;SOM SIG, and Open and User Innovation Conference.</li>
+  <li><b>Generative AI Shifts Technical Knowledge Production Toward Recombinant Novelty</b><br>Rensselaer Lally School of Management, AI and the Future of Work at Wharton, Marketplace Innovation Workshop, M&amp;SOM SIG, and Open and User Innovation Conference.</li>
   <li><b>The Empty Promise: When Do P2P Platforms Fail to Serve Advance-Booking Customers?</b><br>INFORMS Revenue Management and Pricing Conference.</li>
 </ul>
 
 <h2>2025</h2>
 
 <ul class="research-list presentation-list">
-  <li><b>What Remains After LLMs: Technical Knowledge Moves from Hubs to Niches</b><br>OM in the Wild (Poconos), SWIMS, AI Workshop at Temple University, INFORMS Annual Meeting, and Philadelphia Operations Day.</li>
+  <li><b>Generative AI Shifts Technical Knowledge Production Toward Recombinant Novelty</b><br>OM in the Wild (Poconos), SWIMS, AI Workshop at Temple University, INFORMS Annual Meeting, and Philadelphia Operations Day.</li>
   <li><b>Partial Information in Fork&ndash;Join Operations: Evidence from Multi-Brand Cloud Kitchens</b><br>Social Impact, Sustainability, and the Environment at the Warrington School of Business and the BAAICB Conference at Johns Hopkins Carey School of Business.</li>
 </ul>
 

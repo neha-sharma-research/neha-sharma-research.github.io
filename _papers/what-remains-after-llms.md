@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "What Remains After LLMs: Technical Knowledge Moves from Hubs to Niches"
+title: Generative AI Shifts Technical Knowledge Production Toward Recombinant Novelty
 authors:
   - Neha Sharma
   - Simin Li
