@@ -185,6 +185,84 @@ ul.listing li.listing-item a {
     gap: 1.5rem;
 }
 
+.home-shell-compact {
+    max-width: 68rem;
+    margin: 0 auto;
+}
+
+.home-profile-card {
+    align-items: start;
+    background: linear-gradient(135deg, rgba(255, 253, 248, 0.98), rgba(239, 245, 249, 0.98));
+    border: 1px solid rgba(20, 58, 93, 0.08);
+    border-radius: 24px;
+    box-shadow: 0 20px 42px rgba(20, 58, 93, 0.1);
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: minmax(240px, 320px) minmax(0, 1fr);
+    padding: 2rem;
+}
+
+.home-profile-photo {
+    position: sticky;
+    top: 2rem;
+}
+
+.home-profile-copy .hero-name {
+    margin-top: 0;
+}
+
+.home-bio p:last-child {
+    margin-bottom: 0;
+}
+
+.home-contact,
+.home-links {
+    border-top: 1px solid rgba(20, 58, 93, 0.12);
+    margin-top: 1.4rem;
+    padding-top: 1.25rem;
+}
+
+.home-contact h2,
+.home-links h2 {
+    margin-bottom: 0.65rem;
+}
+
+.home-contact p {
+    margin-bottom: 0.35rem;
+}
+
+.profile-link-grid {
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.profile-link-button {
+    align-items: center;
+    background: #990000;
+    border: 1px solid #7a0000;
+    border-radius: 7px;
+    box-shadow: 0 8px 16px rgba(108, 0, 0, 0.16);
+    color: #fff;
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 700;
+    justify-content: center;
+    min-height: 3.15rem;
+    padding: 0.6rem 0.75rem;
+    text-align: center;
+}
+
+.profile-link-button:visited {
+    color: #fff;
+}
+
+.profile-link-button:hover {
+    background: #7a0000;
+    color: #fff;
+    text-decoration: none;
+}
+
 .hero-card {
     background: linear-gradient(135deg, rgba(255, 253, 248, 0.96), rgba(239, 245, 249, 0.98));
     border: 1px solid rgba(20, 58, 93, 0.08);
@@ -455,6 +533,7 @@ ul.listing li.listing-item a {
 
 @include media-query($on-laptop) {
     .hero-card,
+    .home-profile-card,
     .home-grid,
     .paper-list,
     .profile-split,
@@ -464,5 +543,19 @@ ul.listing li.listing-item a {
 
     .hero-card {
         padding: 1.7rem;
+    }
+
+    .home-profile-photo {
+        position: static;
+    }
+
+    .home-profile-photo .profile-inline {
+        display: block;
+        margin: 0 auto;
+        max-width: 320px;
+    }
+
+    .profile-link-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }

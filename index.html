@@ -2,67 +2,47 @@
 layout: default
 ---
 
-<div class="home-shell">
-  <section class="hero-card">
-    <div class="hero-copy">
+<div class="home-shell home-shell-compact">
+  <section class="home-profile-card">
+    <div class="home-profile-photo">
+      <img class="profile-inline" src="{{ site.baseurl }}/images/27207449_2_100223_709_0086.jpeg" alt="Portrait of Neha Sharma">
+    </div>
+
+    <div class="home-profile-copy">
       <h1 class="hero-name"><span class="hero-name-primary">Neha Sharma</span><span class="hero-name-separator"> | </span><span class="hero-name-title">Assistant Professor of Operations, Information and Decisions at The Wharton School</span></h1>
-      <p class="entity-anchor">
-        <strong>Department:</strong> Operations, Information and Decisions (OID)<br>
-        <strong>Institution:</strong> The Wharton School, University of Pennsylvania<br>
-        <strong>Email:</strong> <a href="mailto:{{ site.academic_email }}">{{ site.academic_email }}</a><br>
-        <strong>Profiles:</strong>
-        <a rel="me" href="{{ site.wharton_url }}">Wharton Faculty Page</a> |
-        <a rel="me" href="{{ site.ssrn_url }}">SSRN Author Page</a> |
-        <a rel="me" href="{{ site.scholar_url }}">Google Scholar</a>
-      </p>
-      <p class="hero-summary">I study pricing, incentives, information, and governance design in digital marketplaces, online communities, and access-oriented markets. My work combines empirical analysis, stochastic models, and game theory to understand how platform rules shape participation, service quality, and welfare.</p>
-      <p class="hero-summary">Current projects examine online communities, human-AI collaboration, access to productive assets, supply constraints in sharing platforms, and how LLMs are changing technical knowledge-sharing networks.</p>
-      <div class="button-row">
-        <a href="{{ site.baseurl }}/research/"><span class="color-button">Research</span></a>
-        <a href="{{ site.baseurl }}/presentations/"><span class="color-button">Presentations</span></a>
-        <a href="{{ site.baseurl }}/cv/Neha_CV.pdf"><span class="color-button">CV</span></a>
-      </div>
-    </div>
 
-    <div class="hero-portrait">
-      <img src="{{ site.baseurl }}/images/27207449_2_100223_709_0086.jpeg" alt="Portrait of Neha Sharma">
+      <div class="home-bio">
+        <p>Neha Sharma is {{ site.academic_title }} at {{ site.affiliation }}. She studies how pricing, incentive, information, and governance policies shape outcomes in digital marketplaces, online communities, and access-oriented markets.</p>
+
+        <p>Her work combines empirical analysis, stochastic models, and game theory to understand participation, service quality, and welfare in platform-based systems. Current projects examine online communities, sharing markets, access to productive assets, human-AI collaboration, and the changing role of open knowledge communities in the age of LLMs.</p>
+
+        <p>Before joining Wharton, she completed a Ph.D. in Operations Management and an M.S. in Statistics at Northwestern University in June 2024. Her research has been recognized in INFORMS and IBM student paper competitions and featured by Knowledge at Wharton and Kellogg Insight.</p>
+      </div>
+
+      <section class="home-contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:{{ site.academic_email }}">{{ site.academic_email }}</a></p>
+        <p><strong>Office:</strong> 550 Jon M. Huntsman Hall, 3730 Walnut Street, Philadelphia, PA 19104</p>
+      </section>
+
+      <section class="home-links" aria-labelledby="links-heading">
+        <h2 id="links-heading">Links</h2>
+        <div class="profile-link-grid">
+          <a class="profile-link-button" href="{{ site.baseurl }}/cv/Neha_CV.pdf">CV</a>
+          <a class="profile-link-button" rel="me" href="{{ site.scholar_url }}">Google Scholar</a>
+          <a class="profile-link-button" rel="me" href="{{ site.wharton_url }}">Wharton Page</a>
+          <a class="profile-link-button" rel="me" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+        </div>
+      </section>
     </div>
   </section>
 
-  <section class="home-grid">
-    <div class="panel">
-      <div class="section-head">
-        <h2>Current Roles</h2>
-      </div>
-      <ul class="compact-list">
-        <li>Assistant Professor in Operations, Information and Decisions at Wharton since July 2024.</li>
-        <li>Instructor for OIDD 2200: Introduction to Operations Management / Operations Management Analytics since Spring 2025.</li>
-        <li>Guest lecturer in OIDD 9010 and advisor to doctoral student Christopher Dragomir.</li>
-      </ul>
-    </div>
-
-    <div class="panel">
-      <div class="section-head">
-        <h2>Research Areas</h2>
-      </div>
-      <ul class="topic-list">
-        <li>Digital marketplaces</li>
-        <li>Platform design</li>
-        <li>Online communities</li>
-        <li>AI and operations</li>
-        <li>Urban mobility</li>
-        <li>Access-oriented markets</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="panel">
+  <section class="panel" id="recent-updates">
     <div class="section-head">
       <h2>Recent Updates</h2>
-      <a class="muted-link" href="{{ site.baseurl }}/updates/">View all</a>
     </div>
     <ul class="update-list">
-      {% for item in site.data.updates limit: 5 %}
+      {% for item in site.data.updates %}
       <li class="update-item">
         <span class="update-period">{{ item.period }}</span>
         <p>
@@ -74,41 +54,6 @@ layout: default
         </p>
       </li>
       {% endfor %}
-    </ul>
-  </section>
-
-  <section class="panel">
-    <div class="section-head">
-      <h2>Selected Papers</h2>
-      <a class="muted-link" href="{{ site.baseurl }}/research/">Full research pipeline</a>
-    </div>
-    <ul class="paper-list">
-      <li class="paper-item">
-        <h3>Payment for Results: Funding Non-Profit Operations</h3>
-        <p>Neha Sharma, Sripad Devalkar, and Milind Sohoni</p>
-        <p class="paper-status"><em>Production and Operations Management</em></p>
-        <div class="button-row">
-          <a href="https://onlinelibrary.wiley.com/doi/10.1111/poms.13336"><span class="color-button">Paper</span></a>
-        </div>
-      </li>
-
-      <li class="paper-item">
-        <h3>Structuring Online Communities</h3>
-        <p>Neha Sharma, Gad Allon, and Achal Bassamboo</p>
-        <p class="paper-status">Under review</p>
-        <div class="button-row">
-          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3959181"><span class="color-button">SSRN</span></a>
-        </div>
-      </li>
-
-      <li class="paper-item">
-        <h3>What Remains After LLMs: Technical Knowledge Moves from Hubs to Niches</h3>
-        <p>Neha Sharma and Simin Li</p>
-        <p class="paper-status">Preprint</p>
-        <div class="button-row">
-          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5388669"><span class="color-button">SSRN</span></a>
-        </div>
-      </li>
     </ul>
   </section>
 </div>
