@@ -504,6 +504,52 @@ ul.listing li.listing-item a {
     margin-top: 1.8rem;
 }
 
+.paper-title-link {
+    color: $blue-color-dark;
+}
+
+.paper-detail {
+    max-width: 880px;
+}
+
+.paper-back-link {
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.paper-detail-header {
+    border-bottom: 1px solid rgba(20, 58, 93, 0.12);
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.paper-detail-kicker {
+    color: $accent-color;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.paper-detail-authors {
+    font-size: 1.08rem;
+    margin-bottom: 0.5rem;
+}
+
+.paper-detail-journal {
+    margin-bottom: 0;
+}
+
+.paper-abstract p {
+    line-height: 1.75;
+}
+
+.paper-detail-links {
+    margin-top: 1.75rem;
+}
+
 .profile-split {
     align-items: start;
     display: grid;

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="paper-detail">
+  <a class="paper-back-link" href="{{ site.baseurl }}/research/">&larr; All research</a>
+
+  <header class="paper-detail-header">
+    <p class="paper-detail-kicker">Research paper</p>
+    <h1>{{ page.title }}</h1>
+    <p class="paper-detail-authors">{{ page.authors | join: ", " }}</p>
+    {% if page.status %}<p class="paper-status">{{ page.status }}</p>{% endif %}
+    {% if page.journal %}<p class="paper-detail-journal"><i>{{ page.journal }}</i></p>{% endif %}
+  </header>
+
+  <section class="paper-abstract" aria-labelledby="abstract-heading">
+    <h2 id="abstract-heading">Abstract</h2>
+    <p>{{ page.abstract }}</p>
+  </section>
+
+  <div class="button-row paper-detail-links">
+    {% if page.ssrn_url %}<a href="{{ page.ssrn_url }}"><span class="color-button">SSRN</span></a>{% endif %}
+    {% if page.paper_url %}<a href="{{ page.paper_url }}"><span class="color-button">Paper</span></a>{% endif %}
+    {% if page.doi %}<a href="https://doi.org/{{ page.doi }}"><span class="color-button">DOI</span></a>{% endif %}
+  </div>
+</article>

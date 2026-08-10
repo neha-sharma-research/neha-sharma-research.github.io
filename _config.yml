@@ -26,6 +26,11 @@ linkedin_username: neha-sharma-wharton
 # Build settings
 markdown: kramdown
 
+collections:
+  papers:
+    output: true
+    permalink: /research/:name/
+
 kramdown:
   math_engine: mathjax
 

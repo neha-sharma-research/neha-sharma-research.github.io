@@ -10,7 +10,7 @@ My research studies pricing, incentive, information, and governance design in di
 
 <ul class="research-list">
   <li>
-    <b>Payment for Results: Funding Non-Profit Operations</b><br>
+    <b><a class="paper-title-link" href="{{ site.baseurl }}/research/payment-for-results/">Payment for Results: Funding Non-Profit Operations</a></b><br>
     <i>Neha Sharma, Sripad Devalkar, and Milind Sohoni</i><br>
     <i>Production and Operations Management</i><br>
     <div class="button-row">
@@ -23,7 +23,7 @@ My research studies pricing, incentive, information, and governance design in di
 
 <ul class="research-list">
   <li>
-    <b>The Empty Promise: When Do P2P Platforms Fail to Serve Advance-Booking Customers?</b><br>
+    <b><a class="paper-title-link" href="{{ site.baseurl }}/research/the-empty-promise/">The Empty Promise: When Do P2P Platforms Fail to Serve Advance-Booking Customers?</a></b><br>
     <i>Neha Sharma, Sumanta Singha, Milind Sohoni, and Achal Bassamboo</i><br>
     Major Revision at M&amp;SOM<br>
     <div class="button-row">
@@ -32,7 +32,7 @@ My research studies pricing, incentive, information, and governance design in di
   </li>
 
   <li>
-    <b>Rethinking Algorithmic Fairness for Human-AI Collaboration</b><br>
+    <b><a class="paper-title-link" href="{{ site.baseurl }}/research/rethinking-algorithmic-fairness/">Rethinking Algorithmic Fairness for Human-AI Collaboration</a></b><br>
     <i>Haosen Ge, Neha Sharma, Hamsa Bastani, and Osbert Bastani</i><br>
     Major Revision at <i>Management Science</i><br>
     <div class="button-row">
@@ -41,7 +41,7 @@ My research studies pricing, incentive, information, and governance design in di
   </li>
 
   <li>
-    <b>When Collateral Is a Livelihood: Sustaining Access to Productive Assets</b><br>
+    <b><a class="paper-title-link" href="{{ site.baseurl }}/research/when-collateral-is-a-livelihood/">When Collateral Is a Livelihood: Sustaining Access to Productive Assets</a></b><br>
     <i>Vikas Deep, Neha Sharma, and Leann Thayaparan</i><br>
     Major Revision at M&amp;SOM<br>
     <div class="button-row">
@@ -50,7 +50,7 @@ My research studies pricing, incentive, information, and governance design in di
   </li>
 
   <li>
-    <b>Structuring Online Communities</b><br>
+    <b><a class="paper-title-link" href="{{ site.baseurl }}/research/structuring-online-communities/">Structuring Online Communities</a></b><br>
     <i>Neha Sharma, Gad Allon, and Achal Bassamboo</i><br>
     Under Review<br>
     <div class="button-row">
@@ -63,7 +63,7 @@ My research studies pricing, incentive, information, and governance design in di
 
 <ul class="research-list">
   <li>
-    <b>What Remains After LLMs: Technical Knowledge Moves from Hubs to Niches</b><br>
+    <b><a class="paper-title-link" href="{{ site.baseurl }}/research/what-remains-after-llms/">What Remains After LLMs: Technical Knowledge Moves from Hubs to Niches</a></b><br>
     <i>Neha Sharma and Simin Li</i><br>
     <div class="button-row">
       <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5388669"><span class="color-button">SSRN</span></a>
@@ -71,10 +71,10 @@ My research studies pricing, incentive, information, and governance design in di
   </li>
 
   <li>
-    <b>Partial Information in Fork&ndash;Join Operations: Evidence from Multi-Brand Cloud Kitchens</b><br>
+    <b><a class="paper-title-link" href="{{ site.baseurl }}/research/partial-information-cloud-kitchens/">Partial Information in Fork&ndash;Join Operations: Evidence from Multi-Brand Cloud Kitchens</a></b><br>
     <i>Neha Sharma, Maya Ganesh, and Debjit Roy</i><br>
     <div class="button-row">
-      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5135831"><span class="color-button">SSRN</span></a>
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6336718"><span class="color-button">SSRN</span></a>
     </div>
   </li>
 

@@ -1,0 +1,12 @@
+---
+layout: paper
+title: Structuring Online Communities
+authors:
+  - Neha Sharma
+  - Gad Allon
+  - Achal Bassamboo
+status: Under Review
+ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3959181
+abstract: >-
+  Online Question and Answer communities were started to supplement customer support services. In contrast to conventional customer support, users in online communities can post questions, and other users with more experience or knowledge can answer these questions. Generally, questions answered get rewards and visibility in the community, while the askers gain knowledge if their questions get answered. We study how users decide to join, leave, and participate in these communities. We link the user participation decisions to the underlying network structure of the community. Finally, we explore the levers a community designer can use to balance user participation level and the community's efficiency in providing answers to users' questions. We model the community as a multistage stochastic game where all the users have different skill levels. We find the stationary equilibrium of this game and theoretically show that only a core-periphery network structure can emerge in such communities. This network structure has been empirically observed in most online communities. Furthermore, we find that increasing the cost of asking questions in the community improves the proportion of askers that get answers to their questions. This results in higher user satisfaction. However, a higher asking cost lowers the participation level in the community. This trade-off between participation and community efficiency results in non-monotonicity in the number of users in the community with the participation cost. The paper explores the cost of asking a question as a lever that can be used by communities to control the number and knowledge type of users in the community. The communities typically operationalize higher asking costs by either directly penalizing question asking activity or setting up stricter guidelines for questions to be answered. We find that increasing the cost of asking is not always bad for the community. In fact, a higher asking cost improves user satisfaction, which can lead to an increase in the number of users in the community despite higher asking cost. We also discuss how the existence of low-knowledge users in the community, and not necessarily high-knowledge users, is essential to the survival of such communities.
+---
