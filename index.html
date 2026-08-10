@@ -24,17 +24,20 @@ layout: default
         <p><strong>Email:</strong> <a href="mailto:{{ site.academic_email }}">{{ site.academic_email }}</a></p>
         <p><strong>Office:</strong> 550 Jon M. Huntsman Hall, 3730 Walnut Street, Philadelphia, PA 19104</p>
       </section>
-
-      <section class="home-links" aria-labelledby="links-heading">
-        <h2 id="links-heading">Links</h2>
-        <div class="profile-link-grid">
-          <a class="profile-link-button" href="{{ site.baseurl }}/cv/Neha_CV.pdf">CV</a>
-          <a class="profile-link-button" rel="me" href="{{ site.scholar_url }}">Google Scholar</a>
-          <a class="profile-link-button" rel="me" href="{{ site.wharton_url }}">Wharton Page</a>
-          <a class="profile-link-button" rel="me" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
-        </div>
-      </section>
     </div>
+  </section>
+
+  <section class="home-links-wide" aria-labelledby="links-heading">
+    <h2 id="links-heading">Links</h2>
+    <p class="profile-text-links">
+      <a href="{{ site.baseurl }}/cv/Neha_CV.pdf">CV</a>
+      <span class="link-separator" aria-hidden="true">|</span>
+      <a rel="me" href="{{ site.scholar_url }}">Google Scholar</a>
+      <span class="link-separator" aria-hidden="true">|</span>
+      <a rel="me" href="{{ site.wharton_url }}">Wharton Page</a>
+      <span class="link-separator" aria-hidden="true">|</span>
+      <a rel="me" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+    </p>
   </section>
 
   <section class="panel" id="recent-updates">
