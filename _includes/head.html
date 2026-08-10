@@ -3,8 +3,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.url == "/" %}Neha Sharma | Wharton School | Operations, Information and Decisions{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="Neha Sharma">
+  {% if page.url == "/" %}
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Neha Sharma | Wharton School | Operations, Information and Decisions">
+  <meta property="og:description" content="Assistant Professor of Operations, Information and Decisions at The Wharton School, University of Pennsylvania.">
+  <meta property="og:url" content="{{ site.url }}/">
+  <meta property="og:image" content="{{ site.url }}/images/27207449_2_100223_709_0086.jpeg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "url": "{{ site.url }}/",
+    "mainEntity": {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#neha-sharma",
+      "name": "Neha Sharma",
+      "url": "{{ site.url }}/",
+      "image": "{{ site.url }}/images/27207449_2_100223_709_0086.jpeg",
+      "email": "mailto:{{ site.academic_email }}",
+      "jobTitle": "{{ site.academic_title }}",
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": "The Wharton School, University of Pennsylvania",
+        "url": "https://www.wharton.upenn.edu/"
+      },
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "The Wharton School, University of Pennsylvania"
+      },
+      "sameAs": [
+        "{{ site.wharton_url }}",
+        "{{ site.ssrn_url }}",
+        "{{ site.scholar_url }}",
+        "https://github.com/{{ site.github_username }}",
+        "https://www.linkedin.com/in/{{ site.linkedin_username }}"
+      ]
+    }
+  }
+  </script>
+  {% endif %}
   <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/icon.png">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

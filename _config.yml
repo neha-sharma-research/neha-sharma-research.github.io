@@ -6,8 +6,9 @@ affiliation: The Wharton School, University of Pennsylvania
 location: Philadelphia, PA
 
 description: > # this means to ignore newlines until "baseurl:"
-  Research on digital marketplaces, online communities, AI and operations, and
-  access-oriented markets.
+  Neha Sharma is an Assistant Professor of Operations, Information and Decisions
+  at The Wharton School, University of Pennsylvania. Her research studies digital
+  marketplaces, online communities, AI and operations, and access-oriented markets.
 
 baseurl: # "/academic-portfolio" # the subpath of your site, e.g. /blog/
 
