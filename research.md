@@ -4,7 +4,7 @@ permalink: /research/
 title: Research
 ---
 
-My research has mainly builds on two streams. One, how we can learn and make good decisions when the data we observe are themselves shaped by earlier decisions. The other asks how markets, platforms, and institutions should be designed when people respond to prices, contracts, rules, and new technologies.
+My research mainly builds on two streams. One, how we can learn and make good decisions when the data we observe are themselves shaped by earlier decisions. The other asks how markets, platforms, and institutions should be designed when people respond to prices, contracts, rules, and new technologies.
 
 <section class="research-bucket" aria-labelledby="learning-decisions-heading">
   <h2 id="learning-decisions-heading">Learning &amp; Decision-Making</h2>
