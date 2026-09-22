@@ -4,8 +4,6 @@ permalink: /presentations/
 title: Presentations
 ---
 
-I am immensely grateful for the invitations and for every opportunity to present my work. Below is a list of my talks, organized by year and paper.
-
 <h2>2026</h2>
 
 <ul class="research-list presentation-list">

@@ -496,6 +496,50 @@ ul.listing li.listing-item a {
     gap: 1rem;
 }
 
+.research-bucket .research-list {
+    gap: 1.6rem;
+}
+
+.research-bucket {
+    margin-top: 2.8rem;
+}
+
+.research-bucket + .research-bucket {
+    border-top: 1px solid rgba(20, 58, 93, 0.12);
+    margin-top: 3.4rem;
+    padding-top: 2.8rem;
+}
+
+.research-bucket > h2 {
+    color: $blue-color-dark;
+    font-family: $heading-font-family;
+    font-size: 1.8rem;
+    line-height: 1.25;
+    margin-bottom: 1.7rem;
+}
+
+.research-bucket .research-list li {
+    background: none;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+.research-bucket .research-list h3 {
+    color: $blue-color-dark;
+    font-family: $heading-font-family;
+    font-size: 1.22rem;
+    line-height: 1.35;
+    margin-bottom: 0.28rem;
+}
+
+.research-question {
+    color: $grey-color;
+    font-size: 1rem;
+    font-style: italic;
+    line-height: 1.5;
+}
+
 .presentation-list {
     margin-bottom: 1.8rem;
 }
@@ -587,4 +631,23 @@ ul.listing li.listing-item a {
         max-width: 320px;
     }
 
+}
+
+@include media-query($on-palm) {
+    .research-bucket {
+        margin-top: 2.2rem;
+    }
+
+    .research-bucket + .research-bucket {
+        margin-top: 2.7rem;
+        padding-top: 2.2rem;
+    }
+
+    .research-bucket > h2 {
+        font-size: 1.5rem;
+    }
+
+    .research-bucket .research-list {
+        gap: 1.35rem;
+    }
 }

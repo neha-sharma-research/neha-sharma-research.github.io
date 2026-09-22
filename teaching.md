@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-I teach an undergraduate elective in operations management and analytics, where I enjoy helping students connect analytical tools to managerial decisions. I am also excited to be part of experimenting with AI in the classroom.
+I teach operations management and analytics that links models and managerial judgment. I&rsquo;m also experimenting with how to use AI in the classroom without outsourcing the thinking.
 
 <h2>Courses</h2>
 
