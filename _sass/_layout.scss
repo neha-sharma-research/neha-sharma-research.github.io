@@ -505,17 +505,23 @@ ul.listing li.listing-item a {
 }
 
 .research-bucket + .research-bucket {
-    border-top: 1px solid rgba(20, 58, 93, 0.12);
     margin-top: 3.4rem;
-    padding-top: 2.8rem;
 }
 
 .research-bucket > h2 {
-    color: $blue-color-dark;
+    color: $accent-color;
     font-family: $heading-font-family;
     font-size: 1.8rem;
     line-height: 1.25;
-    margin-bottom: 1.7rem;
+    margin-bottom: 0.35rem;
+}
+
+.research-bucket-question {
+    color: $grey-color;
+    font-size: 1.05rem;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 1.8rem;
 }
 
 .research-bucket .research-list li {
@@ -531,6 +537,13 @@ ul.listing li.listing-item a {
     font-size: 1.22rem;
     line-height: 1.35;
     margin-bottom: 0.28rem;
+}
+
+.research-authors {
+    color: $grey-color-dark;
+    font-size: 0.94rem;
+    line-height: 1.45;
+    margin-bottom: 0.24rem;
 }
 
 .research-question {
@@ -640,7 +653,6 @@ ul.listing li.listing-item a {
 
     .research-bucket + .research-bucket {
         margin-top: 2.7rem;
-        padding-top: 2.2rem;
     }
 
     .research-bucket > h2 {
